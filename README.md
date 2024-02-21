@@ -1,4 +1,5 @@
-### ![image](https://github.com/SandQuattro/websocket-miltipart-upload/assets/31468131/987d67d4-6f9b-4cd4-811a-fa9272c1e468)
+### ![image](https://github.com/SandQuattro/websocket-miltipart-upload/assets/31468131/e1f4aea6-b954-4cf6-b2e9-166d93b6a537)
+
 
 
 # Getting Started with Create React App
