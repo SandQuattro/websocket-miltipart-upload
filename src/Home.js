@@ -46,6 +46,7 @@ function Home() {
     <div className="Home">
       <div className="wrapper">
         <header>Загрузка файлов</header>
+        <img src="/transfer.gif" alt={'transfer'}/>
         <input
             className="file-input"
             type="file"
