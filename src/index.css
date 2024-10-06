@@ -14,7 +14,7 @@ code {
 }
 
 .Home {
-  padding: 100px;
+  padding: 10px;
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -24,21 +24,23 @@ code {
   display: flex;
   flex-direction: column;
   gap: 20px;
-  width: 430px;
+  width: 530px;
   background: #fff;
   border-radius: 5px;
   padding: 30px;
   box-shadow: 7px 7px 12px rgba(0, 0, 0, 0.05);
 }
+
 .wrapper header {
   color: #6990f2;
   font-size: 27px;
   font-weight: 600;
   text-align: center;
 }
+
 .wrapper .upload {
   user-select: none;
-  height: 167px;
+  height: 137px;
   display: flex;
   cursor: pointer;
   align-items: center;

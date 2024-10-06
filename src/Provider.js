@@ -50,13 +50,16 @@ export const ContextProvider = ({ children }) => {
         } else {
           setBackStatus(e.data);
         }
-        if (e.data == "COMPLETED") {
-          file.current.status = "Загружен";
+        if (e.data === "COMPLETED") {
+          file.current.status = "Загрузка завершена";
         }
-        if (e.data == "COMPLETED" && curentFile.current >= files.length - 1) {
+        if (e.data === "UPLOAD_COMPLETED") {
+          file.current.status = "Загружен, обработка...";
+        }
+        if (e.data === "COMPLETED" && curentFile.current >= files.length - 1) {
           ws.current.close();
         }
-        if (e.data == "COMPLETED" && curentFile.current < files.length - 1) {
+        if (e.data === "COMPLETED" && curentFile.current < files.length - 1) {
           curentFile.current += 1;
           handleUpload();
         }
